@@ -1,1 +1,19 @@
-/* место для вашего кода */
+.header {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    margin: 92px 24px 0px 24px;
+}
+
+.logo {
+    width: 148px;
+    height: 105px;
+}
+
+.navigation {
+    width: 387px;
+}
+
+.navigation-list {
+    display: flex;
+}
