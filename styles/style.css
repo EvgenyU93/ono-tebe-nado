@@ -9,8 +9,6 @@
     align-items: center;
     justify-content: center;
     width: 387px;
-    
-
 }
 
 .navigation-list {
@@ -19,14 +17,13 @@
     justify-content: space-between;
     list-style: circle;
     font-weight: 400;
-    
 }
 
 .navigation-list li:first-child {
     list-style: none;
 }
 
-.navigation-list-1{
+.navigation-list-1 {
     text-decoration: none;
 }
 
@@ -35,14 +32,33 @@
     width: 129px;
     height: 104px;
     margin-right: 197px;
-    margin-left: 42px;
-   
+    margin-left: 42px;   
 }
-.contacts{
+
+.contacts {
     display: flex; 
     flex-direction: column;
     justify-content: center;
     width: 240px;
     margin-left: auto;
-    
+}
+
+.cover {
+    height: 757px;
+    margin-top: 96px;
+    background-image: url("../images/cover.jpg");
+    background-size: cover;
+}
+
+.overlay {
+    height: 757px;
+    margin-top: 96px;
+    background-color: rgb(0 0 0 / .6);
+    position: relative;
+    z-index: 1;
+}
+
+.cover__title{
+    color:white;
+
 }
