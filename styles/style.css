@@ -56,9 +56,43 @@
     background-color: rgb(0 0 0 / .6);
     position: relative;
     z-index: 1;
+    padding: 165px 50px 0 50px;
 }
 
-.cover__title{
+.cover__title {
     color:white;
+    font-weight: 700;
+    font-size: 100px;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
 
+.aligned-text {
+    line-height: 115%;
+}
+
+.aligned-text_center {
+    line-height: 100%;
+   align-self: center;
+   position: relative;
+   transform: translateX(-15px);
+}
+
+
+.aligned-text_right {
+    line-height: 100%;
+    align-self: flex-end;
+    
+}
+
+
+.letter-spacing-extended {
+    letter-spacing: 0.6em;
+}
+
+.no-letter-spacing {
+    letter-spacing: 0
 }
