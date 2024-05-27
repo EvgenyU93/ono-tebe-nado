@@ -50,13 +50,15 @@
     background-size: cover;
 }
 
+.cover-container { 
+    padding: 165px 50px 0 50px;
+}
+
 .overlay {
-    height: 757px;
-    margin-top: 96px;
+    height: 100%;
     background-color: rgb(0 0 0 / .6);
     position: relative;
     z-index: 1;
-    padding: 165px 50px 0 50px;
 }
 
 .cover__title {
@@ -95,4 +97,39 @@
 
 .no-letter-spacing {
     letter-spacing: 0
+}
+
+.cover__description {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 135px;
+}
+
+.cover__description-text {
+    color: white;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 127%;
+    text-transform: uppercase;
+    word-spacing: 0.85em;
+    margin-right: 77px;
+}
+
+.bet-button {
+    font-weight: 500;
+    font-size: 22px;
+    font-family: inherit;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    width: 256px;
+    height: 51px;
+}
+
+.card_type_film {
+    background-image: url("../images/card-lot-01.jpg");
+    background-size: cover;
 }
