@@ -46,6 +46,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 135%;
+    font-style: normal;
 }
 
 .cover {
@@ -145,7 +146,7 @@
 }
 
 .lots__heading {
-    padding-bottom: 40px;
+    margin-left: 40px;
     font-weight: 700;
     font-size: 40px;
     text-transform: uppercase;
@@ -156,7 +157,7 @@
     flex-wrap: wrap;
     gap: 25px;
     list-style: none;
-    padding: 27px 0px 0px 0px;
+    margin: 27px 0px 0px 0px;
 }
 
 .lots__card-list-item {
@@ -172,7 +173,7 @@
 
 .card__content {
     display: flex;
-    
+    flex-grow: 1;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -197,9 +198,11 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 120%;
+
 }
 
 .card {
+    display: flex;
     position: relative;
     background-size: cover;
     background-position: center;
@@ -210,7 +213,8 @@
 }
 
 .card_type_book {
-    background-image: url("../images/card-lot-02.jpg")
+    background-image: url("../images/card-lot-02-true.jpg");
+
 }
 
 .card_type_picture {
@@ -218,7 +222,8 @@
 }
 
 .lots__look-more-link {
-    padding: 30px 0px 0px 40px;
+    display: block;
+    margin: 30px 0px 0px 40px;
     font-weight: 400;
     font-size: 20px;
     text-decoration: underline;
@@ -267,7 +272,7 @@
     margin: 298px 0px 91px 0px;
     padding: 0px 50px;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
 }
 
@@ -279,6 +284,8 @@
 .footer__menu-list {
     list-style: none;
     text-align: center;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .footer__menu-link_active {
