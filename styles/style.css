@@ -2,7 +2,7 @@
     display: flex;
     font-size: 18px;
     margin-top: 92px;
-    padding: 0px 50px;
+    padding: 0px 49.48px 0px 50.52px;
 }
 
 .navigation {
@@ -28,13 +28,13 @@
     text-decoration: none;
 }
 .logo__link {
-    margin-right: 197px;
-    margin-left: 42px;   
+    margin-right: 184.52px;
+    margin-left: 40.48px;   
 }
 .logo {
     display: flex;
-    width: 129px;
-    height: 104px;
+    width: 148px;
+    height: 105px;
 }
 
 .contacts {
